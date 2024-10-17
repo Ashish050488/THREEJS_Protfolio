@@ -99,5 +99,8 @@
         |-- Hero.jsx
         |-- Navbar.jsx
         |-- Projects.jsx
+    |-- utils
+        |-- earth-night.jpg
+        |-- earth-topology.png
 |-- tailwind.config.js
 |-- vite.config.js

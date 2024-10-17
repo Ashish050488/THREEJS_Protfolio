@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import Globe from 'react-globe.gl'
 import Button from '../components/Button'
+import earthNight from '../utils/earth-night.jpg'
+import topology from '../utils/earth-topology.png'
 
 const About = () => {
 
@@ -23,7 +25,7 @@ const About = () => {
                     <div>
                         <p className='grid-headtext'>Hi I am Ashish
                         </p>
-                        <p className='grid-subtext'>With 2 years of experience, I have honed my skills in frontend and backend,with a focus on animated 3D websites. </p>
+                        <p className='grid-subtext'>Hi, I'm Ashish, a dedicated web developer with 1.5 years of experience in front-end and back-end technologies, creating dynamic and responsive web solutions. </p>
                     </div>
                 </div>
 
@@ -34,8 +36,17 @@ const About = () => {
                 <div className='grid-container'>
                     <img src='/assets/grid2.png' alt='grid-2' className='w-full sm:w-[276px] h-fit object-contain' />
                 <div>
-                    <p className='grid-headtext'>Tech Stack</p>
-                    <p className='grid-subtext'>about teach</p>
+                          <p className='grid-headtext'>Tech Stack</p>
+                          <p className='grid-subtext'>
+                              Proficient in <span style={{ color: 'green' }}>React.js</span>,{' '}
+                              <span style={{ color: 'green' }}>TailwindCss</span>,{' '}
+                              <span style={{ color: 'green' }}>Node.js</span>,{' '}
+                              <span style={{ color: 'green' }}>MongoDB</span>,{' '}
+                              <span style={{ color: 'green' }}>MySQL</span>, and{' '}
+                              <span style={{ color: 'green' }}>Python</span>, I build robust and scalable
+                              web applications using a versatile tech stack.
+                          </p>
+
                 </div>
                 </div>
             </div>
@@ -52,8 +63,8 @@ const About = () => {
                         backgroundImageOpacity={0.5}
                         showAtmosphere
                         showGraticules
-                        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-                        bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                        globeImageUrl="/src/utils/earth-night.jpg"
+                        bumpImageUrl="/src/utils/earth-topology.png"
                         
                         //for showing the location or anything else
                         // labelsData={[{
