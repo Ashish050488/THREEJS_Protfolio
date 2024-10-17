@@ -9,6 +9,8 @@
         |-- arrow-up.png
         |-- close.svg
         |-- copy.svg
+        |-- earth-night.jpg
+        |-- earth-topology.png
         |-- figma.svg
         |-- framer.png
         |-- framer.svg
@@ -99,8 +101,5 @@
         |-- Hero.jsx
         |-- Navbar.jsx
         |-- Projects.jsx
-    |-- utils
-        |-- earth-night.jpg
-        |-- earth-topology.png
 |-- tailwind.config.js
 |-- vite.config.js

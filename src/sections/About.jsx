@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import Globe from 'react-globe.gl'
 import Button from '../components/Button'
-import earthNight from '../utils/earth-night.jpg'
-import topology from '../utils/earth-topology.png'
+
 
 const About = () => {
 
@@ -63,8 +62,8 @@ const About = () => {
                         backgroundImageOpacity={0.5}
                         showAtmosphere
                         showGraticules
-                        globeImageUrl="/src/utils/earth-night.jpg"
-                        bumpImageUrl="/src/utils/earth-topology.png"
+                        globeImageUrl="/assets/earth-night.jpg"
+                        bumpImageUrl="/assets/earth-topology.png"
                         
                         //for showing the location or anything else
                         // labelsData={[{
