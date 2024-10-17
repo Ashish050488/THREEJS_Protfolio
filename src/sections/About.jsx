@@ -38,9 +38,11 @@ const About = () => {
                           <p className='grid-headtext'>Tech Stack</p>
                           <p className='grid-subtext'>
                               Proficient in <span style={{ color: 'green' }}>React.js</span>,{' '}
-                              <span style={{ color: 'green' }}>TailwindCss</span>,{' '}
+                              <span style={{ color: 'green' }}>JavaScript</span>, and{' '}
                               <span style={{ color: 'green' }}>Node.js</span>,{' '}
+                              <span style={{ color: 'green' }}>TailwindCss</span>,{' '}
                               <span style={{ color: 'green' }}>MongoDB</span>,{' '}
+                              <span style={{ color: 'green' }}>Github</span>, and{' '}
                               <span style={{ color: 'green' }}>MySQL</span>, and{' '}
                               <span style={{ color: 'green' }}>Python</span>, I build robust and scalable
                               web applications using a versatile tech stack.
