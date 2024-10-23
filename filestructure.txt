@@ -21,6 +21,7 @@
         |-- grid4.png
         |-- instagram.svg
         |-- left-arrow.png
+        |-- Linkedin.svg
         |-- menu.svg
         |-- notion.svg
         |-- project-logo1.png

@@ -79,7 +79,7 @@ const About = () => {
                     <div>
                         <p className='grid-headtext'>I work remotely across most timezones.</p>
                         <p className='grid-subtext'>I'm in India</p>
-                        <Button name={'contact me'} isBeam containerClass='w-full mt-10' />
+                       <a href="#contact"><Button name={'contact me'} isBeam containerClass='w-full mt-10' /></a>
                     </div>
                 </div>
             </div>
